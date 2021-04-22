@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+#header{
+    height:100px;
+    width:100%;
+    padding:22px 40px;
+    box-sizing: border-box;
+    position:absolute;
+    z-index: 1;
+}
+
+.hWrap{position:relative;}
+
+.logo{
+    float:left;
+    width:300px;
+}
+.logo a{
+    display: block;
+    height:100%;
+}
+
+.logo a img{
+    display:block;
+    width:100%;
+}
+
+.gnb{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+.gnb li{
+    display:inline-block;
+    margin:50px;
+}
+
+.gnb li a{
+    color:#fff;
+    font-size:24px;
+    font-family: 'gyeonggititlelight';
+    font-weight: 300;
+}
+
+.lnb{float:right;}
+
+.lnb li{
+    width:28px;
+    display: inline-block;
+    margin-left:20px;
+}
+
+.lnb li img{
+    width:100%;
+}
+
+
+/*footer*/
+
+#footer{
+    height:180px;
+    background:url(../img/common/footerBg.png)no-repeat;
+    background-size:cover;
+    text-align: center;
+    padding-top:80px;
+    box-sizing: border-box;  
+    position:relative;
+}
+
+.fLogo{
+    width:200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fLogo img{
+    width:100%;
+}
+
+.fTxt{font-size:14px;
+    display: inline-block;
+    text-align: left;
+    margin-left:40px;
+    vertical-align: middle;
+}
+.fTxt p{
+    margin-bottom:5px;
+}
+
+.snsIcon{
+    position: absolute;
+    top:60%;
+    right:10%;
+    
+}
+.snsIcon li{
+    display: inline-block;
+    width:40px;
+    margin:0 5px;
+}
+
+snsIcon li a{
+    display: block;
+    height:100%;
+}
+
+.snsIcon li img{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
