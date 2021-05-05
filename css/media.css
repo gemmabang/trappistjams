@@ -1,0 +1,280 @@
+@charset "utf-8";
+
+
+
+
+.pannel,.fTxtM{display:none;      
+    }
+
+@media screen and (max-width:768px){
+    
+    /*모바일세팅*/
+    body{
+        min-width:auto;
+    }
+    
+    .inner{
+        width:auto;
+        margin:0;
+    }
+    
+    /*모바일에서 안보임 처리*/
+    .gnb,.lnb,.order,.mainCon03 p,.recipe01,.recipe02,.recipe03,.recipe04,.blur,.fTxt{display: none;}
+    
+    #con05,#con02{background: none;}
+    
+     /*모바일에서 보임 처리*/
+    .pannel,.fTxtM{display: block;}
+    
+    
+    /*공통*/
+    .conBg{
+        height:auto;
+        width:100vw;
+        padding:0;
+    }
+    .conBg h1{
+        font-size:30px;
+        margin:0;
+    }
+    
+    
+    /*header*/
+    #header{padding:14px;}     
+    
+    .logo{width:160px;}
+    /*.logo img{width:100%;}*/
+    
+    .panel{
+        width:30px;
+        height:30px;
+        background: url(../img/common/hamburger_wh.png)no-repeat;
+        background-size:contain;
+        float:right; 
+    }
+    
+    .panel a{
+        display: block;
+        height: 100%;  
+    }
+    
+    
+    
+    /*메인슬라이더*/
+    .mainSlide{
+        height:100vh;
+        margin:0;
+    }
+    
+    .slideImg{
+        width:80%;
+        left:10%;
+        bottom:10%;
+    }
+    
+    .slideImg img{width:100%;}
+    
+    
+    .sTxt{
+        width:70%;
+        position: absolute;
+        top:18%;
+        left:18%;
+        
+    }
+    
+    
+    .sTxt h1{
+        font-size:30px;
+        margin:2% 0;
+    }
+    .sTxt h2{
+        font-size:22px;
+        margin:0;
+    }
+    .sTxt p{
+        margin-bottom:0;
+        font-size:12px;
+    }
+    
+    
+    /*con01*/
+    .mainCon01{}
+    .con01List .slick-slide{
+    width:340px;
+    background: #fff;
+    border-radius:30px;
+    box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.1);
+    margin:30px;
+    }
+
+    .con01List .slick-slide img{
+    width:90%;
+    margin:30px 0 30px;
+    display: inline-block;
+    }
+    
+    .con01List li p{
+        font-size:14px;
+        margin-left:20px;
+    }
+    
+    .con01List .jamTit{margin-bottom:0;}
+    
+    /*con02*/
+    #con02{
+        margin:0;
+        height:auto;
+        padding: 60px 0;
+        
+
+    }
+    #con02 h1{
+        margin-bottom:30px;
+    }
+    .con02List{
+        margin:0;
+        width:100%;
+    }
+    .con02List li{
+        margin:0 auto 10px;
+        display:block;
+    }
+    .con02Txt{
+        font-size:14px;  
+    }
+    
+    .con02Txt .con02TxtTit{font-size:16px;}
+    
+    
+    /*con03*/
+    #con03{
+        height:auto;
+    }
+    #con03 h1{margin-bottom:30px;}
+    .con03List{
+        width:auto;
+    }
+    
+    .con03L{
+        position: static;
+        width:300px;
+        float:none;
+        margin:10px auto;
+        border-radius: 0;
+    }
+    
+    .con03L img{width:100%;}
+    
+    .con03R{
+        width:300px;
+        margin:0 auto;
+        float:none;
+    }
+    .con03R li{
+        position:static;
+        float:none;
+        border-radius:0;
+        margin:10px auto;
+    }
+    
+    .r1{
+        width:300px;
+        height:300px;
+    }
+    
+    .r1 img{height:100%;}
+    
+    /*con04*/
+    #con04{background: none;}
+    #con04 h1{
+        margin:60px 0 30px;
+    }
+    .rvw{
+        margin:0;
+        
+    }
+    
+    .rvw li{height:auto;}
+    
+    
+    
+    /*con05*/
+    #con05{background: none;}
+    #con05 h1{
+        margin:60px 0 30px;
+    }
+    .con05List{
+        width:360px;
+        margin:0 auto;
+
+    }
+    .con05List li{
+        width:14%;
+        margin:0 10px;
+        
+    }
+    
+    .con05List li img{width:100%;}
+    
+    
+    
+    /*footer*/
+    #footer{
+        height:180px;
+        padding:8% 0;
+        margin:4% 0 0;
+    }
+    
+    .fLogo{
+        width:100px;
+        display: block;
+        margin-left:6%;
+    }
+
+    .fTxtM{
+        font-size:10px;
+        text-align: left;
+        padding-left:6%;      
+    }
+    
+    .fTxtM li p{
+        display: inline-block;
+    }
+    
+    .line::after{
+        content: "";
+        display: inline-block;
+        width:1px;
+        height:8px;
+        background: #333;
+        margin:0 5px;
+    }
+        
+
+    .topBtn{
+        /*width:30px;
+        height:30px;*/
+        /*border-radius:0px;
+        right:0%;
+        bottom:2%;
+        animation:none;
+        font-size:14px;*/
+        right:3%;
+    }
+    
+    .topBtn a{}
+    
+    .snsIcon{
+        position: static;
+        text-align: left;
+        padding:2% 6% 0;
+    }
+    
+    .snsIcon li{
+        width:30px;
+        margin:0 10px 0 0;
+    }
+    
+    
+}
